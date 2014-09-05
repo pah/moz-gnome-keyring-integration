@@ -84,7 +84,7 @@ GnomeKeyringLoginManagerStorage.prototype = {
 			log("Exception: " + e + " in " + e.stack);
 		}
 	},
-	init: function() { initialize(); },
+	init: function() { this.initialize(); },
 	initWithFile: function(aInputFile, aOutputFile) {
 		this.init();
 	},
